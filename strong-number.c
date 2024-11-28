@@ -20,7 +20,7 @@ int main() {
     scanf("%d", &num);
     int *ptr = &num;
     if(*ptr == checkStrongNumber(ptr)){
-        printf("%d number is strong number.",ptr);
+        printf("number is strong number.");
     }
     else 
     printf("This number is not a strong number.");
